@@ -1,0 +1,121 @@
+body{
+    background-color: #080710;
+}
+
+.background {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+img{
+    margin-top: -300px;
+    margin-left: -800px;
+    backdrop-filter: blur(20px); 
+}
+
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+form * {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    /* text-shadow: 3px 4px  #080710; */
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(138, 25, 25, 0.7);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}
+
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #883939;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #883939;
+}
+
+.social_media{
+    margin-top: 30px;
+    display: flex;
+}
+
+.social_media div {
+    /* background: red; */
+    width: 150pc;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf0fb;
+    text-align: center;
+}
+
+.social_media div:hover{
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.facebook {
+    margin-left: 25px;
+}
+
+i{
+    margin-right: 4px;
+}
